@@ -1,0 +1,267 @@
+hr {
+	background-color: black;
+	height: 1px;
+	border: 0;
+}
+
+body {
+	margin: 0;
+	min-height: 100%;
+}
+
+body p {
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+body table {
+	font-size: 13px;
+	margin-top: 0px;
+}
+
+table td {
+	height: 80px;
+	width: 110px;
+	text-align: center;
+	cursor: pointer;
+	min-width:100px;
+}
+
+.list {
+	margin-top: -4px;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+.spec-a {
+    text-decoration: none; 
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+#hr-div {
+	background-color: rgb(227, 227, 227);
+	height: 1.5px;
+	width: 97%;
+	margin: 0 auto;
+	box-shadow: 0.5px 0.5px 0.5px 0.5px darkgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body #head-bar {
+	height: 40px;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	background-color: rgb(227, 227, 227);
+}
+
+body #head-bar p {
+	padding-left: 0px;
+	padding-top: 10px;
+	color: rgb(100, 100, 100);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body #my-div {
+	width: 100%;
+}
+
+body #my-div:after{
+	clear: both;
+	display: block;
+	content: '';
+}
+
+body #my-div #myimage-div{
+	float: left;
+	padding-left: 15px;
+	padding-top: 30px;
+}
+
+body #my-div #myinfo-div{
+	float: left;
+}
+
+body #my-div #myinfo-div .myinfo-p{
+	margin: 0;
+}
+
+body #my-div #myinfo-div .history-p{
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body .spec-div .spec {
+	margin-bottom: -17px;
+}
+
+body .spec-div .myspec-p {
+	margin: 0;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body #meterial-div ul li {
+	margin-bottom: -13px;
+}
+
+body #meterial-div #met-table-div {
+	border: 1px solid rgb(227, 227, 227);
+	margin-left: 45px; 
+	width:90%; 
+	overflow-x: scroll;
+	box-shadow: 0.5px 0.5px 0.5px 0.5px darkgray;
+}
+
+body #meterial-div .meterial .tmp_box {
+	position: relative;
+}
+
+body #meterial-div .meterial .tmp_box .met_icon {
+	opacity: 0;
+}
+
+body #meterial-div .meterial .tmp_box .met_icon {
+	position: absolute;
+	left: 20px;
+	bottom: 5px;
+}
+
+body #meterial-div .meterial p {
+	padding: 0;
+}
+
+body #meterial-div .meterial .tmp_box .met_fadeout_text {
+	position: relative;
+	top: 15px;
+}
+
+body #meterial-div .meterial:hover .tmp_box .met_fadeout_text {
+	animation: fadein 0.3s;
+	animation-fill-mode: forwards;
+}
+
+body #meterial-div .meterial .tmp_box .met_fadein_text {
+	position: relative;
+	top: 10px;
+	left: 22px;
+	opacity: 0;
+}
+
+body #meterial-div .meterial:hover .tmp_box .met_fadein_text {
+	animation: fadeout 0.8s;
+	animation-delay: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+body #meterial-div .meterial:hover .tmp_box .met_icon {
+	animation: fadeout 0.8s;
+	animation-delay: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes fadeout {
+	to {
+		opacity: 1;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	color: rgb(100, 100, 100);
+    width: 100%;
+    height: 15%;
+    background-color: rgb(227, 227, 227);
+}
+
+footer p {
+	padding-top: 10px;
+	text-align: center;
+}
